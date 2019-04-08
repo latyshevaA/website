@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #8BC34A;
+}
+
+.header {
+  font-size:40px;
+  padding: 10px;
+  text-align: center;
+  float: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+.header img{
+  float: right;
+  border-radius: 50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AED581;
+  width:100%;
+ 
+ 
+}
+
+li {
+  float: left;
+  width:20%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 80px;
+  text-decoration: none;
+  font-size:30px;
+}
+
+li a:hover {
+  background-color: #8BC34A;
+}
+
+.flex-container {
+  display: flex;
+  
+  align-items: stretch;
+  background-color: #8BC34A;
+}
+
+.flex-container > div {
+  background-color: #AED581;
+  width: 100%;
+  margin: 10px;
+  padding:20px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: #AED581;
+  text-align: center;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Birdwatching<img src="p.jpg" style="width:10%;height:10%;"></h1>
+</div>
+
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Get Started</a></li>
+  <li><a href="#">Photos</a></li>
+  <li><a href="#">Gear</a></li>
+  <li><a href="#">Forum</a></li>
+</ul>
+<div class="flex-container">
+  <div style="width:60%">
+    <h1 style="font-size:40px">Welcome</h1>
+	 <p style="font-size:20px">Birdwatching, or birding, is a form of wildlife observation in which the observation of birds is a recreational activity or citizen science. It can be done with the naked eye, through a visual enhancement device like binoculars and telescopes, by listening for bird sounds,[1][2] or by watching public webcams.
+
+Birdwatching often involves a significant auditory component, as many bird species are more easily detected and identified by ear than by eye. Most birdwatchers pursue this activity for recreational or social reasons, 
+unlike ornithologists, who engage in the study of birds using formal scientific methods.</p></div>
+  <div style="width:40%">
+  <h1 style="font-size:40px">Favourite photos</h1>
+  <div><img src="p.jpg" style="width:40%;height:40%;">
+       <img src="p.jpg" style="width:40%;height:40%;"></div>
+  <div><img src="p.jpg" style="width:40%;height:40%;">
+       <img src="p.jpg" style="width:40%;height:40%;"></div>
+</div>	   
+</div>
+<div class="footer">
+  <p>Footer</p>
+</div>
+
+</body>
+</html>
